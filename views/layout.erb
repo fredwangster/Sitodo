@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf8">
+	<title><% @title + '| ToDo List' %></title>
+	<link href="/reset.css" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1><a href="/">ToDo List</a></h1>
+			<h2>simple todo using ruby & sinatra</h2>
+		<hgroup>
+	</header>
+
+	<div id="main">
+		<%= yield %>
+	</div>
+	
+	<footer>
+		<p><small>by Fred Wang, 9/2/2011</small></p>
+	</footer>
+</body>
+</html>
